@@ -1,4 +1,9 @@
-import item from './item.js';
+import item from './item';
+import $ from 'jquery';
+import './index.css';
+import 'normalize.css';
+import cuid from 'cuid';
+
 
 const items = [];
 let hideCheckeditems = false;
